@@ -1,0 +1,55 @@
+USER STORIES,COMPLEXITIES & ACCEPTANCE TESTS
+
+--------------------------------------------------------------------------------
+
+User Story: As a shareholder, the share values must be accurate within a pound.
+
+Complexity: 1 / Value: 600 / Priority: 600
+
+Acceptance Tests:
+- Verify that the values are correct in regards to the yahoo finance website.
+- Verify that the values are accurate to within a pound.
+
+NOTE: included into the first sprint. Failed acceptance test due to inaccurate share values.
+
+--------------------------------------------------------------------------------
+
+User Story: As a shareholder, I want a way of choosing how I see my updates, so that the software suits me.
+
+Complexity: 2 / Value: 300 / Priority: 150
+
+Acceptance Tests:
+- Verify that three of the shares can be viewed as a graph in weekly, monthly and yearly intervals. The user can change
+  between each view with a button click.
+
+NOTE: excluded from the first sprint
+
+--------------------------------------------------------------------------------
+
+User Story: As a shareholder, I want to be able to set my own values for alerts. So that I can easily customize my share
+            portfolio decisions.
+
+Complexity: 7 / Value: 400 / Priority: 57
+
+Acceptance Tests:
+- Feed test data to see that alerts do trigger when correct data is input.
+- Verify that the client can set thir own alert for share, acknowledged by a message.
+
+NOTE: excluded from the second sprint.
+
+--------------------------------------------------------------------------------
+
+User Story: As a shareholder, I want estimares of the worth of my shares as they happen. So that I get up-to-date information
+	    on my shares easily.
+
+Complexity: 2 / Value: 100 / Priority: 50
+
+Acceptance Tests:
+- Verfiy that the share prices are correct with 15 minutes of stock market changes by comparing prices of all of the shares with
+  yahoo's finance web-page.
+
+NOTE: excluded from the second sprint.
+
+--------------------------------------------------------------------------------
+
+

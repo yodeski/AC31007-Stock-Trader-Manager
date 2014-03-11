@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/stock_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/time_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_graph" />
+    
+   	<com.androidplot.xy.XYPlot
+   		android:id="@+id/mySimpleXYPlot"
+    	android:layout_width="fill_parent"
+    	android:layout_height="300dp"
+    	android:layout_marginTop="20dp"
+    	android:layout_marginLeft="18dp"
+    	android:layout_marginRight="15dp"
+    	androidPlot.title="Shares Graph"
+   		androidPlot.titleWidget.labelPaint.textSize="18dp"
+   		androidPlot.domainLabelWidget.labelPaint.textSize="20dp"
+   		androidPlot.rangeLabelWidget.labelPaint.textSize="20dp"
+   		
+   		androidPlot.graphWidget.marginTop="50dp"
+   		androidPlot.graphWidget.marginLeft="25dp"
+        androidPlot.graphWidget.marginBottom="50dp"
+        androidPlot.graphWidget.marginRight="10dp"
+        
+        androidPlot.legendWidget.iconSizeMetrics.heightMetric.value="5dp"
+        androidPlot.legendWidget.iconSizeMetrics.widthMetric.value="5dp"
+        androidPlot.legendWidget.heightMetric.value="25dp"
+        androidPlot.legendWidget.positionMetrics.anchor="right_bottom"
+        
+        androidPlot.graphWidget.rangeLabelPaint.textSize="15dp"
+        androidPlot.graphWidget.rangeOriginLabelPaint.textSize="15dp"
+        androidPlot.graphWidget.domainLabelPaint.textSize="15dp"
+        androidPlot.graphWidget.domainOriginLabelPaint.textSize="15dp"
+        androidPlot.legendWidget.textPaint.textSize="15dp"
+          
+   		/>
+   		
+</LinearLayout>
